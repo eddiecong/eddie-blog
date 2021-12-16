@@ -1,23 +1,26 @@
 <template>
   <div class="layout">
-    <Layout style="height: 400px">
+    <Layout style="height: 100%">
       <Content style="margin: 50px; width: 100%">
-        <Content style="width: 30%; float: left">
-          <img src="../assets/eddie.png">
-        </Content>
         <Content style="margin: 30px; width: 80%">
-          <h1 style="margin: 20px">About Me:</h1>
-          <h2>
-            Hi! I'm Eddie, welcome to my blog. I'm a machine learning engineer
-            and researcher in computer vision (currently working at Pantheonlab,
-            Hong Kong). Prior to that, I received my B.S. degree in Information
-            Computing Science from Sun Yat-sen University and M.S. degree in Advanced
-            Information System from Hong Kong Baptist University.
-          </h2>
-          <h2 style="margin: 10px"> Current Research Aspect: </h2>
-          <h2>Face Synthesis, Talking Face Generation, Computer Vision.</h2>
+          <Timeline>
+            <TimelineItem>
+              <p class="time">2015.9 - 2019.6</p>
+              <img src="../assets/sysu-logo.png">
+              <p>Sun Yat-Sen University</p>
+            </TimelineItem>
+            <TimelineItem>
+              <p class="time">2019.9 - 2020.6</p>
+              <img src="../assets/hkbu-logo.png">
+              <p>Hong Kong Baptist Unversity</p>
+            </TimelineItem>
+            <TimelineItem>
+              <p class="time">2020.8 - 2022.1</p>
+              <img src="../assets/pantheonlab.png">
+              <p>Pantheon Lab Limited, Hong Kong SAR</p>
+            </TimelineItem>
+          </Timeline>
         </Content>
-        <h2 style="width: 300px; text-align: center"> Weicong(Eddie) Gao </h2>
       </Content>
 
     </Layout>
@@ -29,8 +32,12 @@
 
 img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 50px;
+  height: 50px;
 }
 
+.time {
+  font-size: 14px;
+  font-weight: bold;
+}
 </style>
