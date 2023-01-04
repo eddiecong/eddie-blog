@@ -12,16 +12,14 @@
           <h1 style="margin: 25px 0px">About Me:</h1>
           <h2>
             Hi! I'm Eddie, welcome to my blog. I'm a machine learning engineer
-            and researcher in computer vision (currently working at
-            Pantheon Lab Limited, Hong Kong). Floating into BioInformetics.
+            and researcher in computer vision and robotics.
           </h2>
           <h2 style="margin: 10px 0px">Working close with:</h2>
           <a href="https://github.com/desmondchchan" class="teamate">Desmond Chan</a>
           <a href="https://github.com/KevinHuang619" class="teamate">Kevin Huang</a>
           <a href="https://github.com/SamuelBroughton" class="teamate">Sam Broughton</a>
-          <a class="teamate">Guillaume Tong</a>
           <h2 style="margin: 25px 0px 10px"> Current Research Aspect: </h2>
-          <h2>Face Synthesis, Talking Face Generation, RNA Sequencing</h2>
+          <h2>Face Synthesis, Talking Face Generation, Graph Neural Network</h2>
           <div>
             <a href="https://www.linkedin.com/in/eddie-gao-61033b1b3/">
               <img class="icon" src="../assets/linkedin.png">

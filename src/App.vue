@@ -10,17 +10,8 @@
             <MenuItem name="about" to="/about">
               ABOUT
             </MenuItem>
-            <MenuItem name="paper">
-              PAPER LIST
-            </MenuItem>
-            <MenuItem name="coding">
-              CODING
-            </MenuItem>
             <MenuItem name="blog" to="/blog">
               BLOG
-            </MenuItem>
-            <MenuItem name="life">
-              LIFE
             </MenuItem>
           </Menu>
         </Header>

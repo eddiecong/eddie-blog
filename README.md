@@ -8,6 +8,7 @@ http://34.92.230.43/
 
 ```
 Vue + Iview + express.js
+Built on nginx.
 ```
 
 ## To do list:

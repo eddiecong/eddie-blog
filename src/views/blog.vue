@@ -6,7 +6,6 @@
         <p>
           Transformer in short.
         </p>
-        <p slot="extra">10 mins to read</p>
       </Card>
     </Col>
 
@@ -18,7 +17,6 @@
           method in Genarative Adversial Network. Includes instance normalization
           and spade.
         </p>
-        <p slot="extra">10 mins to read</p>
       </Card>
     </Col>
 
@@ -28,7 +26,6 @@
         <p>
           Convolution in short.
         </p>
-        <p slot="extra">20 mins to read</p>
       </Card>
     </Col>
   </Row>

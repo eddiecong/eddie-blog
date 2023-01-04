@@ -24,6 +24,11 @@ const routes = [
     path: '/batch-norm',
     name: 'batch-norm',
     component: () => import(/* webpackChunkName: "about" */ '../views/batch-norm.vue')
+  },
+  {
+    path: '/login',
+    name: '/login',
+    component: () => import('../views/Login.vue')
   }
 ]
 
